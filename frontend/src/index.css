@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes move-right-to-left {
+  0% {
+    transform: translateX(1050px); /* Start off the right side */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left side */
+  }
+}
+
+@keyframes move-left-to-right {
+  0% {
+    transform: translateX(-100%); /* Start off the right side */
+  }
+  100% {
+    transform: translateX(1050px); /* Move to the left side */
+  }
+}
+
+@keyframes remark-move {
+  from {
+    transform: translateX(370px);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
